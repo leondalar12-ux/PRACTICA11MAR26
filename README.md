@@ -21,3 +21,10 @@ var a = 20
     println("La suma es: ${a + b}")
 }
 <img width="449" height="227" alt="image" src="https://github.com/user-attachments/assets/7153a584-6427-48c0-a919-ed3c2934683e" />
+
+###4 Declara una variable curso con el nombre del curso
+fun main(){
+var curso = "Aplicaciones Moviles"
+    println("Curso: $curso")
+}
+<img width="404" height="210" alt="image" src="https://github.com/user-attachments/assets/75d6c868-41e8-4e99-bff6-a7c9b4f59d4f" />

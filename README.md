@@ -181,10 +181,15 @@ fun main() {
 }
 <img width="465" height="433" alt="image" src="https://github.com/user-attachments/assets/58e8e133-1a31-45e5-85c7-521304407908" />
 
-
-
-
-
-
-
 ### 3 Crea un programa que use when para mostrar el nivel de un estudiante según  su nota
+fun main() {
+    var nota = 13
+    when(nota) {
+        in 18..20 -> println("Excelente")
+        in 14..17 -> println("Bueno")
+        in 11..13 -> println("Regular")
+        in 0..10 -> println("Reprobado")
+    }
+}
+<img width="361" height="296" alt="image" src="https://github.com/user-attachments/assets/2a54dd5e-d305-4e48-9f8c-8540e78dd672" />
+

@@ -53,3 +53,11 @@ fun main() {
     if (nota >= 11) println("Aprobado") else println("Desaprobado")
 }
 <img width="799" height="232" alt="image" src="https://github.com/user-attachments/assets/c62442bb-8621-4405-b0e6-fa68189fd05c" />
+###3 creacion e variable con cualquier numero
+fun main() {
+    var numero = 100   // puedes cambiar el valor
+    if (numero > 0) {
+        println("Número positivo")
+    }
+}
+<img width="579" height="218" alt="image" src="https://github.com/user-attachments/assets/3a811c68-6bf6-4e49-9cfd-1a61e10a94e3" />

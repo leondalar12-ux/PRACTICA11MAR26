@@ -1,6 +1,6 @@
 # PRACTICA_KOTLIN
 ## 1 DESARROLLO DE VARIABLES Y SALIDAS
-### 1Declarar nombre con variable
+### 1 Declarar nombre con variable
 <code>
 fun main() {
     var nombre = "Dalia"
@@ -154,11 +154,23 @@ fun main() {
    }
 }
 <img width="431" height="532" alt="image" src="https://github.com/user-attachments/assets/649bfe88-9295-4966-8837-92ffa9040f26" />
-## 4 Usa for para sumar los números del 1 al 10
+### 4 Usa for para sumar los números del 1 al 10
 fun main() {
    var suma = 0
     for (i in 1..100) suma += i
     println("La suma total es: $suma")
 }
 <img width="336" height="311" alt="image" src="https://github.com/user-attachments/assets/944c150c-9453-4258-b8af-d96995377abf" />
+
+## 5 DESARROLLO DE PROBLEMAS COMBINADOS
+### 1 Crea un programa que reciba un número y determine si es: 
+positivo, negativo, cero utilizando if else.
+
+fun main() {
+    var numero = -890
+    if (numero > 0) println("Positivo")
+    else if (numero < 0) println("Negativo")
+    else println("Cero")
+}
+<img width="387" height="309" alt="image" src="https://github.com/user-attachments/assets/c0352872-407c-49a2-9d98-0f0d16366e6a" />
 

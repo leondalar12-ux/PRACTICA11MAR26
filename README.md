@@ -1,19 +1,19 @@
 # PRACTICA_KOTLIN
-##1 DESARROLLO DE VARIABLES Y SALIDAS
-###1Declarar nombre con variable
+## 1 DESARROLLO DE VARIABLES Y SALIDAS
+### 1Declarar nombre con variable
 <code>
 fun main() {
     var nombre = "Dalia"
     println("Hola soy $nombre")
 }
 <img width="494" height="450" alt="image" src="https://github.com/user-attachments/assets/5079d1b7-8b61-4fa1-b567-037cacbe0151" />
-###2 Declarar una variable de edad
+### 2 Declarar una variable de edad
 fun main(){
 var edad = 42
     println("Tengo $edad añitos")
 }
 <img width="412" height="241" alt="image" src="https://github.com/user-attachments/assets/2b6a40d9-3179-49b1-b2a4-4f9f5c4d54ee" />
-###3 Declara dos números a y b con valores que tú elijas e imprime la suma. 4. 
+### 3 Declara dos números a y b con valores que tú elijas e imprime la suma. 4. 
 <code>
 fun main(){
 var a = 20
@@ -22,38 +22,38 @@ var a = 20
 }
 <img width="449" height="227" alt="image" src="https://github.com/user-attachments/assets/7153a584-6427-48c0-a919-ed3c2934683e" />
 
-###4 Declara una variable curso con el nombre del curso
+### 4 Declara una variable curso con el nombre del curso
 fun main(){
 var curso = "Aplicaciones Moviles"
     println("Curso: $curso")
 }
 <img width="404" height="210" alt="image" src="https://github.com/user-attachments/assets/75d6c868-41e8-4e99-bff6-a7c9b4f59d4f" />
-###5 Declara una variable comida con tu comida favorita 
+### 5 Declara una variable comida con tu comida favorita 
 fun main(){
 val comida = "Adobo de chancho."
     println("Mi comida favorita es: $comida")
 }
 <img width="553" height="231" alt="image" src="https://github.com/user-attachments/assets/e1875845-b78a-4416-a9d1-c665c178b1eb" />
-###6 Declara una variable videojuego 
+### 6 Declara una variable videojuego 
 fun main(){
 val videojuego = "Super Mario"
     println("Mi videojuego favorito es: $videojuego")
 }
 <img width="597" height="246" alt="image" src="https://github.com/user-attachments/assets/40498706-b228-4fff-aa3d-073fe6320d49" />
-##2 DESARROLLO DE CONDICIONALES IF
-###1 Variable  edad
+## 2 DESARROLLO DE CONDICIONALES IF
+### 1 Variable  edad
 fun main() {
     var edad = 42
     if (edad >= 18) println("Eres mayor de edad")
 }
 <img width="552" height="197" alt="image" src="https://github.com/user-attachments/assets/092e358b-601a-4c10-ab5c-a47a41561f9c" />
-###2 Variable notas
+### 2 Variable notas
 fun main() {
     var nota = 10
     if (nota >= 11) println("Aprobado") else println("Desaprobado")
 }
 <img width="799" height="232" alt="image" src="https://github.com/user-attachments/assets/c62442bb-8621-4405-b0e6-fa68189fd05c" />
-###3 creacion e variable con cualquier numero
+### 3 creacion e variable con cualquier numero
 fun main() {
     var numero = 100   // puedes cambiar el valor
     if (numero > 0) {
@@ -61,22 +61,22 @@ fun main() {
     }
 }
 <img width="579" height="218" alt="image" src="https://github.com/user-attachments/assets/3a811c68-6bf6-4e49-9cfd-1a61e10a94e3" />
-###4 Crea un programa que verifique si un número es par o impar usando if else. 
+### 4 Crea un programa que verifique si un número es par o impar usando if else. 
 fun main() {
     var num = 137
     if (num % 2 == 0) println("Número par") else println("Número impar") 
 }
 <img width="819" height="207" alt="image" src="https://github.com/user-attachments/assets/464e38cb-e45e-49c6-be1e-d45a16f69d8a" />
 
-###5 una variable temperatura. 
+### 5 una variable temperatura. 
 fun main() {
     var temperatura = 45
     if (temperatura < 18) println("Hace frío") else println("Hace calor")
 }
 <img width="848" height="211" alt="image" src="https://github.com/user-attachments/assets/27eac9c2-e683-4cc9-9731-1df3c17034ab" />
 
-##3 DESARROLLO CONDICIONAL WHEN
-###1 Crea una variable dia con un número del 1 al 7
+## 3 DESARROLLO CONDICIONAL WHEN
+### 1 Crea una variable dia con un número del 1 al 7
 fun main() {
     var dia = 4
     when(dia) {
@@ -91,7 +91,7 @@ fun main() {
 }
 <img width="326" height="288" alt="image" src="https://github.com/user-attachments/assets/878726d9-9420-4a9b-a7f7-c41da6fc0a67" />
 
-###2 Crea una variable numero del 1 al 3. 
+### 2 Crea una variable numero del 1 al 3. 
 fun main() {
     var numero = 3
     when(numero) {
@@ -101,7 +101,7 @@ fun main() {
     }
 }
 <img width="323" height="279" alt="image" src="https://github.com/user-attachments/assets/2eae4224-722e-4536-844d-ede9c169a82a" />
-###3 Crea una variable mes con un número del 1 al 12. 
+### 3 Crea una variable mes con un número del 1 al 12. 
 fun main() {
     var mes = 12
     when(mes) {
@@ -121,7 +121,7 @@ fun main() {
 }
 <img width="314" height="369" alt="image" src="https://github.com/user-attachments/assets/817d875f-e8e6-4ba6-9e1c-f4375acf417f" />
 
-###4 Crea una variable nota y usa when para mostrar
+### 4 Crea una variable nota y usa when para mostrar
 fun main() {
     var nota = 9
     
@@ -133,4 +133,18 @@ fun main() {
     }
 }
 <img width="315" height="293" alt="image" src="https://github.com/user-attachments/assets/5b215e4f-9a84-4631-815e-1c55932c4152" />
+## 4 DESARROLLO DE CICLOS FOR
+### 1 Usa for para imprimir los números del 1 al 10. 
+fun main() {
+    for (i in 1..10) println(i)
 
+}
+<img width="315" height="455" alt="image" src="https://github.com/user-attachments/assets/98244a07-62ed-41e6-bb1a-d81fd918bc25" />
+
+### 2 Usa for para imprimir tu nombre 5 veces. 
+fun main() {
+   for (i in 1..5) println("Dalia")
+}
+  <img width="316" height="372" alt="image" src="https://github.com/user-attachments/assets/363a6fb4-9e4f-4c8d-a2e5-5edce0493624" />
+  
+### 3 Crea un programa que imprima los números del 1 al 20. 

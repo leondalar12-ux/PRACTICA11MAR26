@@ -74,3 +74,25 @@ fun main() {
     if (temperatura < 18) println("Hace frío") else println("Hace calor")
 }
 <img width="848" height="211" alt="image" src="https://github.com/user-attachments/assets/27eac9c2-e683-4cc9-9731-1df3c17034ab" />
+
+##3 DESARROLLO CONDICIONAL WHEN
+###1 Crea una variable dia con un número del 1 al 7
+fun main() {
+    var dia = 4
+    when(dia) {
+        1 -> println("Lunes")
+        2 -> println("Martes")
+        3 -> println("Miércoles")
+        4 -> println("Jueves")
+        5 -> println("Viernes")
+        6 -> println("Sábado")
+        7 -> println("Domingo")
+    }
+}
+<img width="326" height="288" alt="image" src="https://github.com/user-attachments/assets/878726d9-9420-4a9b-a7f7-c41da6fc0a67" />
+
+
+
+
+
+###2 Crea una variable numero del 1 al 3. 

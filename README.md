@@ -91,8 +91,14 @@ fun main() {
 }
 <img width="326" height="288" alt="image" src="https://github.com/user-attachments/assets/878726d9-9420-4a9b-a7f7-c41da6fc0a67" />
 
-
-
-
-
 ###2 Crea una variable numero del 1 al 3. 
+fun main() {
+    var numero = 3
+    when(numero) {
+        1 -> println("Piedra")
+        2 -> println("Papel")
+        3 -> println("Tijera")
+    }
+}
+<img width="323" height="279" alt="image" src="https://github.com/user-attachments/assets/2eae4224-722e-4536-844d-ede9c169a82a" />
+

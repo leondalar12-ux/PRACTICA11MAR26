@@ -61,3 +61,18 @@ fun main() {
     }
 }
 <img width="579" height="218" alt="image" src="https://github.com/user-attachments/assets/3a811c68-6bf6-4e49-9cfd-1a61e10a94e3" />
+###4 Crea un programa que verifique si un número es par o impar usando if else. 
+fun main() {
+    var num = 137
+    if (num % 2 == 0) println("Número par") else println("Número impar") 
+}
+<img width="819" height="207" alt="image" src="https://github.com/user-attachments/assets/464e38cb-e45e-49c6-be1e-d45a16f69d8a" />
+
+
+
+
+
+
+
+
+###5 una variable temperatura. 

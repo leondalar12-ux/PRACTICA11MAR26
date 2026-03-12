@@ -120,3 +120,17 @@ fun main() {
     }
 }
 <img width="314" height="369" alt="image" src="https://github.com/user-attachments/assets/817d875f-e8e6-4ba6-9e1c-f4375acf417f" />
+
+###4 Crea una variable nota y usa when para mostrar
+fun main() {
+    var nota = 9
+    
+    when(nota) {
+        in 18..20 -> println("AD")
+        in 14..17 -> println("A")
+        in 11..13 -> println("B")
+        in 0..10 -> println("C")
+    }
+}
+<img width="315" height="293" alt="image" src="https://github.com/user-attachments/assets/5b215e4f-9a84-4631-815e-1c55932c4152" />
+

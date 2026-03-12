@@ -47,3 +47,9 @@ fun main() {
     if (edad >= 18) println("Eres mayor de edad")
 }
 <img width="552" height="197" alt="image" src="https://github.com/user-attachments/assets/092e358b-601a-4c10-ab5c-a47a41561f9c" />
+###2 Variable notas
+fun main() {
+    var nota = 10
+    if (nota >= 11) println("Aprobado") else println("Desaprobado")
+}
+<img width="799" height="232" alt="image" src="https://github.com/user-attachments/assets/c62442bb-8621-4405-b0e6-fa68189fd05c" />

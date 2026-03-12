@@ -154,4 +154,11 @@ fun main() {
    }
 }
 <img width="431" height="532" alt="image" src="https://github.com/user-attachments/assets/649bfe88-9295-4966-8837-92ffa9040f26" />
-   
+## 4 Usa for para sumar los números del 1 al 10
+fun main() {
+   var suma = 0
+    for (i in 1..100) suma += i
+    println("La suma total es: $suma")
+}
+<img width="336" height="311" alt="image" src="https://github.com/user-attachments/assets/944c150c-9453-4258-b8af-d96995377abf" />
+

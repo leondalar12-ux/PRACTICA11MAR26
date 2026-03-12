@@ -68,11 +68,9 @@ fun main() {
 }
 <img width="819" height="207" alt="image" src="https://github.com/user-attachments/assets/464e38cb-e45e-49c6-be1e-d45a16f69d8a" />
 
-
-
-
-
-
-
-
 ###5 una variable temperatura. 
+fun main() {
+    var temperatura = 45
+    if (temperatura < 18) println("Hace frío") else println("Hace calor")
+}
+<img width="848" height="211" alt="image" src="https://github.com/user-attachments/assets/27eac9c2-e683-4cc9-9731-1df3c17034ab" />

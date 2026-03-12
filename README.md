@@ -146,5 +146,12 @@ fun main() {
    for (i in 1..5) println("Dalia")
 }
   <img width="316" height="372" alt="image" src="https://github.com/user-attachments/assets/363a6fb4-9e4f-4c8d-a2e5-5edce0493624" />
-  
 ### 3 Crea un programa que imprima los números del 1 al 20. 
+fun main() {
+   for (i in 1..20) {
+        if (i % 2 == 0) println("Número par: $i")
+        else println(i)
+   }
+}
+<img width="431" height="532" alt="image" src="https://github.com/user-attachments/assets/649bfe88-9295-4966-8837-92ffa9040f26" />
+   

@@ -28,3 +28,9 @@ var curso = "Aplicaciones Moviles"
     println("Curso: $curso")
 }
 <img width="404" height="210" alt="image" src="https://github.com/user-attachments/assets/75d6c868-41e8-4e99-bff6-a7c9b4f59d4f" />
+###5 Declara una variable comida con tu comida favorita 
+fun main(){
+val comida = "Adobo de chancho."
+    println("Mi comida favorita es: $comida")
+}
+<img width="553" height="231" alt="image" src="https://github.com/user-attachments/assets/e1875845-b78a-4416-a9d1-c665c178b1eb" />

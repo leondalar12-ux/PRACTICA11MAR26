@@ -34,3 +34,9 @@ val comida = "Adobo de chancho."
     println("Mi comida favorita es: $comida")
 }
 <img width="553" height="231" alt="image" src="https://github.com/user-attachments/assets/e1875845-b78a-4416-a9d1-c665c178b1eb" />
+###6 Declara una variable videojuego 
+fun main(){
+val videojuego = "Super Mario"
+    println("Mi videojuego favorito es: $videojuego")
+}
+<img width="597" height="246" alt="image" src="https://github.com/user-attachments/assets/40498706-b228-4fff-aa3d-073fe6320d49" />

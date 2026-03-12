@@ -101,4 +101,22 @@ fun main() {
     }
 }
 <img width="323" height="279" alt="image" src="https://github.com/user-attachments/assets/2eae4224-722e-4536-844d-ede9c169a82a" />
-
+###3 Crea una variable mes con un número del 1 al 12. 
+fun main() {
+    var mes = 12
+    when(mes) {
+        1 -> println("Enero")
+        2 -> println("Febrero")
+        3 -> println("Marzo")
+        4 -> println("Abril")
+        5 -> println("Mayo")
+        6 -> println("Junio")
+        7 -> println("Julio")
+        8 -> println("Agosto")
+        9 -> println("Setiembre")
+        10 -> println("Octubre")
+        11 -> println("Noviembre")
+        12 -> println("Diciembre")
+    }
+}
+<img width="314" height="369" alt="image" src="https://github.com/user-attachments/assets/817d875f-e8e6-4ba6-9e1c-f4375acf417f" />

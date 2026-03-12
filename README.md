@@ -1,6 +1,7 @@
 # PRACTICA_KOTLIN
 ##1 DESARROLLO DE VARIABLES Y SALIDAS
 ###1Declarar nombre con variable
+<code>
 fun main() {
     var nombre = "Dalia"
     println("Hola soy $nombre")
@@ -12,3 +13,11 @@ var edad = 42
     println("Tengo $edad añitos")
 }
 <img width="412" height="241" alt="image" src="https://github.com/user-attachments/assets/2b6a40d9-3179-49b1-b2a4-4f9f5c4d54ee" />
+###3 Declara dos números a y b con valores que tú elijas e imprime la suma. 4. 
+<code>
+fun main(){
+var a = 20
+    var b = 35
+    println("La suma es: ${a + b}")
+}
+<img width="449" height="227" alt="image" src="https://github.com/user-attachments/assets/7153a584-6427-48c0-a919-ed3c2934683e" />

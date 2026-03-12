@@ -174,3 +174,17 @@ fun main() {
 }
 <img width="387" height="309" alt="image" src="https://github.com/user-attachments/assets/c0352872-407c-49a2-9d98-0f0d16366e6a" />
 
+### 2 Crea un programa que imprima la tabla de multiplicar de un número que elijas  usando for. 
+fun main() {
+    var num = 3
+    for (i in 1..10) println("$num x $i = ${num * i}")
+}
+<img width="465" height="433" alt="image" src="https://github.com/user-attachments/assets/58e8e133-1a31-45e5-85c7-521304407908" />
+
+
+
+
+
+
+
+### 3 Crea un programa que use when para mostrar el nivel de un estudiante según  su nota

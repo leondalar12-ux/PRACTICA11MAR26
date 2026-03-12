@@ -40,3 +40,10 @@ val videojuego = "Super Mario"
     println("Mi videojuego favorito es: $videojuego")
 }
 <img width="597" height="246" alt="image" src="https://github.com/user-attachments/assets/40498706-b228-4fff-aa3d-073fe6320d49" />
+##2 DESARROLLO DE CONDICIONALES IF
+###1 Variable  edad
+fun main() {
+    var edad = 42
+    if (edad >= 18) println("Eres mayor de edad")
+}
+<img width="552" height="197" alt="image" src="https://github.com/user-attachments/assets/092e358b-601a-4c10-ab5c-a47a41561f9c" />
